@@ -11,7 +11,7 @@ pipe_lr = joblib.load(open("text_emotion.pkl", "rb"))
 emotions_emoji_dict = {
     "anger": "😠", "disgust": "🤮", "fear": "😨😱", "happy": "🤗", 
     "joy": "😂", "neutral": "😐", "sad": "😔", "sadness": "😔", 
-    "shame": "😳", "surprise": "😮"
+    "shame": "😳", "surprise": "😮" , "love":"❤️"
 }
 
 # Predict emotions
